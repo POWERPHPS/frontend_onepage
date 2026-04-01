@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One page rolo</title>
+    <style>
+        .secao {
+            height: 100vh;
+            padding: 20px;
+            border-bottom: 1px solid #1ba9cc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            font-family: sans-serif;
+        }
+        
+        .cor1 {
+            background-color: rgb(14, 226, 241);
+        }
+        
+        .cor2 {
+            background-color: rgb(56, 121, 138);
+        }
+        
+        .cor3 {
+            background-color: rgb(10, 45, 51);
+        }
+        
+        nav {
+            position: fixed;
+            /* Fixa o menu no topo */
+            top: 0;
+            width: 100%;
+            background-color: rgb(35, 23, 207);
+            padding: 10px 0;
+            text-align: center;
+            z-index: 100;
+            /* Garante que fique acima */
+        }
+        
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#secao1">pagina 1</a>
+        <a href="#secao2">pagina 2</a>
+        <a href="#secao3">pagina 3</a>
+    </nav>
+    <div id="secao1" class="secao cor1">
+        <h1>bem vindo a pagina 1</h1>
+    </div>
+    <div id="secao2" class="secao cor2">
+        <h1>esssa é a pagina 2</h1>
+    </div>
+    <div id="secao3" class="secao cor3">
+        <h1>chegou a pagina 3</h1>
+    </div>
+</body>
+
+</html>
